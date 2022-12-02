@@ -136,6 +136,7 @@
   margin: auto;
   margin-top: 68px;
   list-style: none;
+  padding-left: 0;
 }
 
 .card {
@@ -218,12 +219,12 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 12px;
+  width: 24px;
+  height: 24px;
 }
 
 .event-info__icon_type_calendar {
   background-image: url(../images/icon_calendar.svg);
-  width: 24px;
-  height: 24px;
 }
 
 .event-info__icon_type_pin {
@@ -342,6 +343,7 @@
   margin: 100px 0 0;
   justify-content: center;
   display: flex;
+  gap: 20px;
   /* Add styles */
 }
 
@@ -350,8 +352,7 @@
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 220px;
-  margin: 20px;
+  width: 220px;
 }
 
 .step__title {
@@ -405,6 +406,10 @@
   margin-bottom: 32px;
 }
 
+.about__paragraph:last-of-type {
+  margin-bottom: 0px;
+}
+
 .about__circle {
   background-color: #2f80ed;
   width: 495px;
@@ -451,11 +456,13 @@
 }
 
 .footer__list-item:last-of-type {
-  margin-bottom: 0px0;
+  margin-bottom: 0px;
 }
 
 .footer__column-heading {
   margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__column-link:hover {
@@ -463,7 +470,7 @@
 }
 
 .footer__column-link {
-  color: #c1c1c1;
+  color: #ffff;
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
